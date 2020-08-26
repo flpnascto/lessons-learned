@@ -1,0 +1,21 @@
+/* Projeto 01 Trybe */
+
+/*Requisito (1) corpo de texto com cor de fundo rgb(253, 251, 251) */
+
+body {
+  background-color: rgb(253, 251, 251);
+
+}
+
+/* Requisito (2) barra superior fixa no topo da página na posição top: 0px */
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 3px solid #73AD21;
+}
+
+#titulo {
+  text-align: center;
+}
