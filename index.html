@@ -8,10 +8,18 @@
 
   <title>Trybe - Projeto 01</title>
 </head>
+<!-- Requisito (10) a página deve possuir os elementos: article, header, nav, section, aside e footer -->
 <body>
   <!-- Requisito (2) Barra superior com título -->
   <header id="cabecalho" class="cabecalho">
     <h1 id="titulo">Lições Aprendidas - Módulo 01 - HTML & CSS</h1>
+
+    <nav>
+      <ul>
+        <li class="inline_order"><a href="#minha_foto">Sobre</a></li>
+        <li class="inline_order"><a href="mailto:flpnascto@gmail.com">Contato</a></li>
+      </ul>
+    </nav> 
 
   </header>
   <main>
@@ -49,14 +57,33 @@
     <!-- Requisito (5) lista com id "licoes_a_aprender" -->
   </main>
 
-  <!-- Requisito (8) artigo com tag "article" -->
-  <article id="article">
+  
+  <section>
     <h2>O meu aprendizado na Trybe</h2>
-    <p>Os estudos na Trybe têm sido muito intensos e prazerosos. Há, em abundância, o <strong>aprendizado técnico</strong>, <strong><em>soft skills </em></strong>e principalmente <strong>pessoas</strong>, temos 150 alunos na turma.
-      <br>A idéia de que quanto mais se aprende, mas há o que se aprender é uma rotina diária. O mundo conectado e a internet aumentam a possibilidade de busca de conteúdos novos e complementares em escala exponencial.
-      <br>A oportunidade de conversar e ouvir várias pessoas contibuem para agilizar o <strong>desenvolvimento positivo</strong> acerca da convivência com a diversidade. Respeito é indispensável e o <u>bom humor</u> é a menor distância entre as pessoas.</p>
 
-  </article>
+    <!-- Requisito (8) artigo com tag "article" -->
+    <article>    
+      <p>Os estudos na Trybe têm sido muito intensos e prazerosos. Há, em abundância, o <strong>aprendizado técnico</strong>, <strong><em>soft skills </em></strong>e principalmente <strong>pessoas</strong>, temos 150 alunos na turma.
+        <br>A idéia de que quanto mais se aprende, mas há o que se aprender é uma rotina diária. O mundo conectado e a internet aumentam a possibilidade de busca de conteúdos novos e complementares em escala exponencial.
+        <br>A oportunidade de conversar e ouvir várias pessoas contibuem para agilizar o <strong>desenvolvimento positivo</strong> acerca da convivência com a diversidade. Respeito é indispensável e o <u>bom humor</u> é a menor distância entre as pessoas.
+      </p>
+    </article>
+    
+  </section>
+  
+  <section>
+    <h2>Contos e Casos</h2>
+
+    <!-- Requisito (9) seção com tag "asside" -->
+    <asside>
+      <p>Realizamos uma dinâmica de <em>soft skills</em> em que em uma folha dividida em 18 quadros cada aluno desenhou nos seis primeiros quadros desenhos diversos.
+        <br>Nos próximos seis quadros copiamos os desenhos realizados pela <strong>Lulu.</strong>
+        <br>Então, nos últimos quadros foi desenhado a <em>soma</em> desenhos das duas etapas.
+      </p>
+    </asside>
+
+  </section>
+  
 
   <footer id="rodape">
     <!-- Requisito (7) link para site externo em nova aba -->
