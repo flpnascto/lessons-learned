@@ -1,100 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-  <title>Trybe - Projeto 01</title>
-</head>
-<!-- Requisito (10) a página deve possuir os elementos: article, header, nav, section, aside e footer -->
-<body>
-  <!-- Requisito (2) Barra superior com título -->
-  <header id="cabecalho" class="cabecalho">
-    <h1 id="titulo">Lições Aprendidas - Módulo 01 - HTML & CSS</h1>
+    <title>Trybe - Projeto 01</title>
+  </head>
+  <!-- Requisito (10) a página deve possuir os elementos: article, header, nav, section, aside e footer -->
+  <body>
+    <!-- Requisito (2) Barra superior com título -->
+    <header id="cabecalho" class="cabecalho">
+      <h1 id="titulo">Lições Aprendidas - Módulo 01 - HTML & CSS</h1>
 
-    <nav>
-      <ul>
-        <li class="inline_order"><a href="#minha_foto">Sobre</a></li>
-        <li class="inline_order"><a href="mailto:flpnascto@gmail.com">Contato</a></li>
+      <nav>
+        <ul>
+          <li class="inline_order"><a href="#minha_foto">Sobre</a></li>
+          <li class="inline_order">
+            <a href="mailto:flpnascto@gmail.com">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Requisito (3) foto com id "minha_foto" -->
+      <img
+        id="minha_foto"
+        class="minha_foto inline_order"
+        src="./foto_perfil.jpg"
+        alt="foto perfil"
+      />
+
+      <h2>Lições</h2>
+      <!-- Requisito (4) lista ordenada com id "licoes_aprendidas" -->
+      <ol id="licoes_aprendidas" class="licoes_aprendidas inline_order">
+        <li>Unix</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>Empatia</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Slack</li>
+        <li>Zomm</li>
+        <li>Inspect</li>
+        <li>HTML Semântico</li>
+      </ol>
+      <!-- Requisito (5) lista com id "licoes_a_aprender" -->
+      <ul id="licoes_a_aprender" class="licoes_a_aprender inline_order">
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node</li>
+        <li>Express.js</li>
+        <li>SQL</li>
+        <li>Unit Tests</li>
+        <li>Forms</li>
+        <li>Python</li>
+        <li>React Native</li>
+        <li>Soft Skills</li>
       </ul>
-    </nav> 
 
-  </header>
-  <main>
-    <!-- Requisito (3) foto com id "minha_foto" -->
-    <img id="minha_foto" class="minha_foto inline_order" src="./foto_perfil.jpg" />
-    
-    <h2>Lições</h2>
-    <!-- Requisito (4) lista ordenada com id "licoes_aprendidas" -->
-    <ol id="licoes_aprendidas" class="licoes_aprendidas inline_order">
-      <li>Unix</li>
-      <li>Git</li>
-      <li>GitHub</li>
-      <li>Empatia</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Slack</li>
-      <li>Zomm</li>
-      <li>Inspect</li>
-      <li>HTML Semântico</li>
-    </ol>
-    <!-- Requisito (5) lista com id "licoes_a_aprender" -->
-    <ul id="licoes_a_aprender" class="licoes_a_aprender inline_order">
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>Node</li>
-      <li>Express.js</li>
-      <li>SQL</li>
-      <li>Unit Tests</li>
-      <li>Forms</li>
-      <li>Python</li>
-      <li>React Native</li>
-      <li>Soft Skills</li>
-    </ul>
+      <!-- Requisito (5) lista com id "licoes_a_aprender" -->
+    </main>
 
-    <!-- Requisito (5) lista com id "licoes_a_aprender" -->
-  </main>
+    <section>
+      <h2>O meu aprendizado na Trybe</h2>
 
-  
-  <section>
-    <h2>O meu aprendizado na Trybe</h2>
+      <!-- Requisito (8) artigo com tag "article" -->
+      <article>
+          Os estudos na Trybe têm sido muito intensos e prazerosos. Há, em abundância, o <strong>aprendizado técnico</strong>, <strong><em>soft skills </em></strong>e principalmente <strong>pessoas</strong>, temos 150 alunos na turma. A idéia de que quanto mais se aprende, mas há o que se aprender é uma rotina diária. O mundo conectado e a internet aumentam a possibilidade de busca de conteúdos novos e complementares em escala exponencial. A oportunidade de conversar e ouvir várias pessoas contibuem para agilizar o <strong>desenvolvimento positivo</strong> acerca da convivência com a diversidade. Respeito é indispensável e o <u>bom humor</u> é a menor distância entre as pessoas.
+      </article>
+    </section>
 
-    <!-- Requisito (8) artigo com tag "article" -->
-    <article>    
-      <p>Os estudos na Trybe têm sido muito intensos e prazerosos. Há, em abundância, o <strong>aprendizado técnico</strong>, <strong><em>soft skills </em></strong>e principalmente <strong>pessoas</strong>, temos 150 alunos na turma.
-        <br>A idéia de que quanto mais se aprende, mas há o que se aprender é uma rotina diária. O mundo conectado e a internet aumentam a possibilidade de busca de conteúdos novos e complementares em escala exponencial.
-        <br>A oportunidade de conversar e ouvir várias pessoas contibuem para agilizar o <strong>desenvolvimento positivo</strong> acerca da convivência com a diversidade. Respeito é indispensável e o <u>bom humor</u> é a menor distância entre as pessoas.
+    <section>
+      <h2>Contos e Casos</h2>
+
+      <!-- Requisito (9) seção com tag "asside" -->
+      <aside>
+        <p>
+          Realizamos uma dinâmica de <em>soft skills</em> em que em uma folha dividida em 18 quadros cada aluno desenhou nos seis primeiros quadros desenhos diversos. Nos próximos seis quadros copiamos os desenhos realizados pela <strong>Lulu.</strong>Então, nos últimos quadros foi desenhado a <em>soma</em> desenhos das duas etapas.
+        </p>
+      </aside>
+    </section>
+
+    <footer id="rodape">
+      <!-- Requisito (7) link para site externo em nova aba -->
+      <p>
+        Todos os direitos reservados, Felipe Nascimento.
+        <a href="https://www.linkedin.com/in/fnascto/" target="_blank">
+          linkedIn</a
+        >
       </p>
-    </article>
-    
-  </section>
-  
-  <section>
-    <h2>Contos e Casos</h2>
-
-    <!-- Requisito (9) seção com tag "asside" -->
-    <asside>
-      <p>Realizamos uma dinâmica de <em>soft skills</em> em que em uma folha dividida em 18 quadros cada aluno desenhou nos seis primeiros quadros desenhos diversos.
-        <br>Nos próximos seis quadros copiamos os desenhos realizados pela <strong>Lulu.</strong>
-        <br>Então, nos últimos quadros foi desenhado a <em>soma</em> desenhos das duas etapas.
-      </p>
-    </asside>
-
-  </section>
-  
-
-  <footer id="rodape">
-    <!-- Requisito (7) link para site externo em nova aba -->
-    <p>Todos os direitos reservados, Felipe Nascimento. <a href="https://www.linkedin.com/in/fnascto/" target="_blank"> linkedIn</a></p>
-  </footer>
-
-
-
-
-    
-
-  
-</body>
+    </footer>
+  </body>
 </html>
