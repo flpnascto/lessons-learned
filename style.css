@@ -1,44 +1,104 @@
 /* Projeto 01 Trybe */
 * {
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
-}
-/*Requisito (1) corpo de texto com cor de fundo rgb(253, 251, 251) */
 
+  }
+
+/*Requisito (1) corpo de texto com cor de fundo rgb(253, 251, 251) */
 body {
   background-color: rgb(253, 251, 251);
-
+  /* Outras extilizações */
+  /*max-width: 1366px;
+  margin: auto;*/
+  
 }
 
 /* Requisito (2) barra superior fixa no topo da página na posição top: 0px */
 .cabecalho {
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
+  left: 0;
   height: 100px;
-  border: 3px solid #73AD21;
+  background: rgb(0, 128, 0);
+  background-size: cover;
 }
 
-#titulo {
+/* Outras extilizações */
+.titulo {
   text-align: center;
+  font-size: 36px;
+  color: rgb(253, 251, 251)
+
 }
 
 main {
-  margin-top: 100px;
-  left: 0px;
-  widows: 100%;
+  margin-top: 120px;
+  padding: 20px;
+  
 }
+
+h2{
+  margin: 10px;
+
+}
+
 .inline_order {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.minha_foto {
+  height: 200px;
+  width: auto;
+  border-radius: 20px;
+  margin: 10px;
+}
+/*
+.licoes_aprendidas, licoes_a_aprender {
+  margin: 0 10px;
+}
+*/
+.artigo {
+  /*margin: 15px;*/
+  border: 3px solid rgb(0, 128, 0);
+  padding: 10px;
+  line-height: 1.25em;
+}
+.pos_right {
+  float: right;
+  width: 49%;
+}
+
+.pos_left {
+  float: left;
+  width: 49%;
+}
+
+footer {
+  margin-top: 250px;
+  padding: 10px;
+  background-color: rgb(0, 128, 0);
+}
+
+nav {
+  background-color: rgb(78,78,78);
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav a:link, nav a:visited {
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
 }
 
-.minha_foto{
-  margin: 20px;
-
+nav a:hover, nav a:active {
+  background-color:  rgb(0, 128, 0);
 }
-
-.licoes_aprendidas, .licoes_a_aprender {
-  margin-left: 10px;
-}
-
-

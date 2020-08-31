@@ -12,7 +12,7 @@
   <body>
     <!-- Requisito (2) Barra superior com título -->
     <header id="cabecalho" class="cabecalho">
-      <h1 id="titulo">Lições Aprendidas - Módulo 01 - HTML & CSS</h1>
+      <h1 id="titulo" class="titulo" >Lições Aprendidas - Módulo 01 - HTML & CSS</h1>
 
       <nav>
         <ul>
@@ -26,7 +26,7 @@
     <main>
 
       <!-- Requisito (12) tabela -->
-      <table>
+      <table class="inline_order">
         <tr>
           <td rowspan="3">
             <!-- Requisito (3) foto com id "minha_foto" -->
@@ -49,45 +49,45 @@
         </tr>
       </table>
 
-      <h2>Lições</h2>
-      <!-- Requisito (4) lista ordenada com id "licoes_aprendidas" -->
-      <ol id="licoes_aprendidas" class="licoes_aprendidas inline_order">
-        <li>Unix</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Empatia</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Slack</li>
-        <li>Zomm</li>
-        <li>Inspect</li>
-        <li>HTML Semântico</li>
-      </ol>
-      <!-- Requisito (5) lista com id "licoes_a_aprender" -->
-      <ul id="licoes_a_aprender" class="licoes_a_aprender inline_order">
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>Express.js</li>
-        <li>SQL</li>
-        <li>Unit Tests</li>
-        <li>Forms</li>
-        <li>Python</li>
-        <li>React Native</li>
-        <li>Soft Skills</li>
-      </ul>
+        <h2>Lições</h2>
+        <!-- Requisito (4) lista ordenada com id "licoes_aprendidas" -->
+        <ol id="licoes_aprendidas" class="licoes_aprendidas inline_order">
+          <li>Unix</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Empatia</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Slack</li>
+          <li>Zomm</li>
+          <li>Inspect</li>
+          <li>HTML Semântico</li>
+        </ol>
+        <!-- Requisito (5) lista com id "licoes_a_aprender" -->
+        <ul id="licoes_a_aprender" class="licoes_a_aprender inline_order">
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node</li>
+          <li>Express.js</li>
+          <li>SQL</li>
+          <li>Unit Tests</li>
+          <li>Forms</li>
+          <li>Python</li>
+          <li>React Native</li>
+          <li>Soft Skills</li>
+        </ul>
+      
 
-      <!-- Requisito (5) lista com id "licoes_a_aprender" -->
     </main>
 
-    <section>
+    <section class="artigo pos_left inline_order">
       <h2>O meu aprendizado na Trybe</h2>
 
       <!-- Requisito (8) artigo com tag "article" -->
       <article>Os estudos na Trybe têm sido muito intensos e prazerosos. Há, em abundância, o <strong>aprendizado técnico</strong>, <strong><em>soft skills </em></strong>e principalmente <strong>pessoas</strong>, temos 150 alunos na turma. A idéia de que quanto mais se aprende, mas há o que se aprender é uma rotina diária. O mundo conectado e a internet aumentam a possibilidade de busca de conteúdos novos e complementares em escala exponencial. A oportunidade de conversar e ouvir várias pessoas contibuem para agilizar o <strong>desenvolvimento positivo</strong> acerca da convivência com a diversidade. Respeito é indispensável e o <u>bom humor</u> é a menor distância entre as pessoas.</article>
     </section>
 
-    <section>
+    <section class="artigo pos_right inline_order">
       <h2>Contos e Casos</h2>
 
       <!-- Requisito (9) seção com tag "asside" -->
@@ -96,12 +96,9 @@
 
     <footer id="rodape">
       <!-- Requisito (7) link para site externo em nova aba -->
-      <p>
         Todos os direitos reservados, Felipe Nascimento.
         <a href="https://www.linkedin.com/in/fnascto/" target="_blank">
-          linkedIn</a
-        >
-      </p>
+          linkedIn</a>
     </footer>
   </body>
 </html>
