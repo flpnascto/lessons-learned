@@ -1,12 +1,12 @@
 /* Projeto 01 Trybe */
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
 
-/*Requisito (1) corpo de texto com cor de fundo rgb(253, 251, 251) */
+/* Requisito (1) corpo de texto com cor de fundo rgb(253 , 251 ,251) */
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 ,251 ,251);
 }
 
 /* Requisito (2) barra superior fixa no topo da página na posição top: 0px */
@@ -16,7 +16,7 @@ body {
   width: 100%;
   left: 0;
   height: 100px;
-  background: rgb(15 ,163 107);
+  background: rgb(15 ,163, 107);
   background-size: cover;
 }
 
@@ -24,7 +24,7 @@ body {
 .titulo {
   text-align: center;
   font-size: 36px;
-  color: rgb(253, 251, 251)
+  color: rgb(253 ,251 ,251);
 
 }
 
@@ -33,7 +33,7 @@ main {
   padding: 20px;
 }
 
-h2{
+h2 {
   margin: 10px;
 }
 
@@ -50,8 +50,7 @@ h2{
 }
 
 .artigo {
-  /*margin: 15px;*/
-  border: 3px solid rgb(15 ,163 107);
+  border: 3px solid rgb(15 ,163, 107);
   padding: 10px;
   line-height: 1.25em;
 }
@@ -69,11 +68,11 @@ h2{
 footer {
   margin-top: 250px;
   padding: 10px;
-  background-color: rgb(15 ,163 107);
+  background-color: rgb(15 ,163, 107);
 }
 
 nav {
-  background-color: rgb(78,78,78);
+  background-color: rgb(78, 78, 78);
 }
 
 nav li {
@@ -81,7 +80,7 @@ nav li {
   display: inline;
 }
 
-nav a:link ,nav a:visited {
+nav a:link , nav a:visited {
   color: white;
   padding: 15px 25px;
   text-align: center;
@@ -89,6 +88,6 @@ nav a:link ,nav a:visited {
   display: inline-block;
 }
 
-nav a:hover ,nav a:active {
-  background-color:  rgb(15 ,163 107);
+nav a:hover , nav a:active {
+  background-color: rgb(15 ,163, 107);
 }
